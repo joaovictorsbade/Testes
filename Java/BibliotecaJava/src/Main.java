@@ -12,7 +12,7 @@ public class Main {
     //Laço de Repetição
     public static void LacoDeRepeticao(){
         System.out.println("Laço de Repetição");
-        for (int i = 1 ; 1 <= 5 ; i++){
+        for (int i = 1; i <= 5; ++i) {
             System.out.println("i = " + i);
         }
     }//Laço de Repetição
