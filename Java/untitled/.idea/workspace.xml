@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6d8b324-bd2d-4aee-add1-423bcd3c3f87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../BibliotecaJava/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BibliotecaJava/src/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BibliotecaJava.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BibliotecaJava/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="d6d8b324-bd2d-4aee-add1-423bcd3c3f87" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +13,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2dy3CuXPZyc5fT4Zv5qFfm8nyXJ" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
@@ -39,7 +33,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/JoaoVictor/lomay/AulaFiapJava",
+    "last_opened_file_path": "C:/Users/logonrmlocal/Documents/GitHub/Testes/Java/BibliotecaJava",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",

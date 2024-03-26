@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         //--Chamar Métodos e Funções--
-        //LacoDeRepeticao();
+        LacoDeRepeticao();
         //ScannerInput();
 
     }
