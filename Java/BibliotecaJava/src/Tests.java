@@ -1,10 +1,19 @@
 import javax.swing.*;
-
 public class Tests {
 
     public static void main(String[] args) {
+        //--Chamar Métodos e Funções--
 
-        
+    }
+
+
+
+
+
+
+
+//        REVISAR
+    public static void AplicacaoSwing(){
         // Cria um rótulo com o texto "Hello World"
         JLabel label = new JLabel("Hello World");
 
@@ -21,6 +30,8 @@ public class Tests {
         // Exibe a janela
         frame.setVisible(true);
     }
+    //        REVISAR
+
 
 
 }
