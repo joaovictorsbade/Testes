@@ -4,7 +4,7 @@ import java.util.Scanner;
 //Aula Java 26/03
 public class CalculoMedia {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         CalculoMedia cm = new CalculoMedia();
 
@@ -79,8 +79,8 @@ public class CalculoMedia {
     }
 
 
-    public char definirConceito(float media){
-        if(media >= 9 && media <=10){
+    public char definirConceito(float media) {
+        if (media >= 9 && media <= 10) {
             setConceito('A');
         } else if (media >= 8 && media < 9) {
             conceito = 'B';
@@ -88,13 +88,14 @@ public class CalculoMedia {
             conceito = 'C';
         } else if (media >= 6 && media < 7) {
             conceito = 'D';
-        }else {
+        } else {
             conceito = 'E';
         }
         return conceito;
     }
-    public void apresentarNota(char conceito){
-        switch (conceito){
+
+    public void apresentarNota(char conceito) {
+        switch (conceito) {
             case 'A':
                 System.out.println("Paraboins tu tirou A, A de avião, voa ");
                 break;

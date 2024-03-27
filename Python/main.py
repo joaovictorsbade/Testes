@@ -1,17 +1,9 @@
-# #versão 1.0 Funcionando
-#
+# # #versão 1.0 Funcionando
+# #
 # #Quando o valor é invalido o progama finaliza execução
 # #Formatar texto
 # #tentar no 2.0 com Swtch case
 # #organizar os testes anteriores
-#
-#
-#
-# #Definir o valor de cada cédula
-# ced10 = 10
-# ced20 = 20
-# ced50 = 50
-# ced100 = 100
 #
 #
 # #Contabilizar a quantidade de cada cédula
@@ -22,7 +14,8 @@
 #
 # quantidades = {"ced10": quantCed10, "ced20": quantCed20, "ced50": quantCed50, "ced100": quantCed100}
 #
-# montanteNoCaixa = quantCed10 * ced10 + quantCed20 * ced20 + quantCed50 * ced50 + quantCed100 * ced100
+#montanteNoCaixa = quantCed10 * 10 + quantCed20 * 20 + quantCed50 * 50 + quantCed100 * 100
+
 #
 # print("O valor total do caixa é:", montanteNoCaixa)
 #
@@ -68,8 +61,6 @@
 # cedulasEntregues = VerificarCedulas(saque, quantidades)
 # if cedulasEntregues:
 #     print("Saque entregue em: ", cedulasEntregues)
-#
-
 def calcular_somas_possiveis(alvos, alvo, soma_atual, indice, caminho):
     if soma_atual == alvo:
         print(caminho)
