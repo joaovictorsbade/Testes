@@ -27,9 +27,14 @@ public class ExeContaSaqueDeposito {
             case 5:
                 conta.alterarAtributoSaldo(conta.saldo);
                 break;
+            default:
+                System.out.println("Número não correspondente com nenhuma ação!");
+
         }
 
     }
+
+
 
     public static class Conta {
         private String nome;
@@ -60,13 +65,13 @@ public class ExeContaSaqueDeposito {
             this.saldo = saldo;
         }
 
-        public void depositar(double quantidade) {
+        void depositar(double quantidade) {
             this.saldo = this.saldo + quantidade;
             System.out.println("Você depositou R$ " + quantidade);
             System.out.println("Seu saldo atual é: " + saldo);
         }
 
-        public void sacar(double quantidade) {
+        void sacar(double quantidade) {
             if (saldo >= quantidade) {
                 this.saldo = this.saldo - quantidade;
                 System.out.println("Você sacou R$ " + quantidade);
@@ -76,7 +81,7 @@ public class ExeContaSaqueDeposito {
             }
         }
 
-        public void alterarAtributoNome(String nome) {
+        void alterarAtributoNome(String nome) {
             Scanner input = new Scanner(System.in);
 
             System.out.println("Digite seu novo nome: ");
@@ -94,7 +99,7 @@ public class ExeContaSaqueDeposito {
 
         }
 
-        public void alterarAtributoSaldo(double saldo) {
+        void alterarAtributoSaldo(double saldo) {
             Scanner input = new Scanner(System.in);
 
             System.out.println("Digite novo saldo: ");
@@ -118,7 +123,7 @@ public class ExeContaSaqueDeposito {
 
         }
 
-        public Double pegarQuantidade() {
+        Double pegarQuantidade() {
             Scanner input = new Scanner(System.in);
             System.out.println("Digite a quantidade: ");
             Double quantidade = Double.valueOf(input.nextLine());

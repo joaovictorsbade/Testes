@@ -4,10 +4,51 @@ public class Main {
 
     public static void main(String[] args) {
         //--Chamar Métodos e Funções--
-        LacoDeRepeticao();
+
+        //SwitchCase();
+        //LacoDeRepeticao();
         //ScannerInput();
 
     }
+
+
+    //Switch Case
+    public static void SwitchCase(){
+        Scanner input = new Scanner(System.in);
+        String diaSemana;
+        System.out.print("Digite um número de 1 a 7: ");
+        int num = input.nextInt();
+        switch (num){
+            case 1:
+                diaSemana = "Segunda-Feira";
+                break;
+            case 2:
+                diaSemana = "Terça-Feira";
+                break;
+            case 3:
+                diaSemana = "Quarta-Feira";
+                break;
+            case 4:
+                diaSemana = "Quinta-Feira";
+                break;
+            case 5:
+                diaSemana = "Sexta-Feira";
+                break;
+            case 6:
+                diaSemana = "Sábado";
+                break;
+            case 7:
+                diaSemana = "Domingo";
+                break;
+            default:
+                diaSemana = "Inválido";
+
+        }
+        System.out.println("Dia: " + diaSemana);
+
+    }
+    //Switch Case
+
 
     //Laço de Repetição
     public static void LacoDeRepeticao(){
@@ -19,11 +60,11 @@ public class Main {
 
     //Scanner
     public static void ScannerInput() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Digite um texto: ");
-        String texto = scanner.nextLine();
+        String texto = input.nextLine();
         System.out.println("Você digitou: " + texto);
-        scanner.close();
+        input.close();
     }//Scanner
 
 
